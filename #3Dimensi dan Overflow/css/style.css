@@ -1,0 +1,31 @@
+/* overflow; auto */
+div{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    overflow: auto;
+}
+
+/* overflow; visible */
+/* div{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    overflow: visible;
+} */
+
+/* overflow; scroll */
+/* div{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    overflow: scroll;
+} */
+
+/* overflow; hidden */
+/* div{
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    overflow: hidden;
+} */
