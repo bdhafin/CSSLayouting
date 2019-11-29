@@ -54,10 +54,33 @@ body{
     color:#333;
     background-image: url(../image/email-pattern.png);
 }
+.topbar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 40px;
+    background-color: lightskyblue;
+    border-bottom: 3px solid salmon;
+    z-index: 1;
+}
 .container{
     width: 960px;
-    margin: auto;
+    margin: 80px auto;
     background-color: #fff;
+    position: relative;
+}
+
+.google{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-image: url(../image/tribbon.png);
+    background-repeat: no-repeat;
+    text-indent: -9999px;
+    position: absolute;
+    top: -55px;
+    right: 0;
 }
 
 .header{
